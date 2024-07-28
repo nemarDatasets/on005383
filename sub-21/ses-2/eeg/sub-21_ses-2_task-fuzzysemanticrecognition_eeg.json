@@ -1,0 +1,18 @@
+{
+    "TaskName": "fuzzysemanticrecognition",
+    "Manufacturer": "n/a",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 200.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 124.995,
+    "RecordingType": "continuous",
+    "EEGReference": "n/a",
+    "EEGGround": "n/a",
+    "EEGPlacementScheme": "based on the extended 10/20 system",
+    "EEGChannelCount": 30,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 1
+}
