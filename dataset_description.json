@@ -3,17 +3,19 @@
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
-       "Yanru Bai",
-	"Qi Tang",
-	"Ran Zhao",
-	"Hongxing Liu",
-	"Mingkun Guo",
-	"Shuming Zhang",
-	"Minghan Guo",
-	"Junjie Wang",
-	"Changjian Wang",
-	"Mu Xing",
-	"Guangjian Ni",
-	"Dong Ming"
-    ]
+        "Yanru Bai",
+        "Qi Tang",
+        "Ran Zhao",
+        "Hongxing Liu",
+        "Mingkun Guo",
+        "Shuming Zhang",
+        "Minghan Guo",
+        "Junjie Wang",
+        "Changjian Wang",
+        "Mu Xing",
+        "Guangjian Ni",
+        "Dong Ming"
+    ],
+    "HowToAcknowledge": "",
+    "License": "CC0"
 }
