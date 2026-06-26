@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
+  "description": "TMNRED is a Chinese language EEG dataset comprising recordings from 30 healthy native speakers during natural reading tasks. The dataset investigates semantic processing mechanisms in Chinese within naturalistic reading environments, featuring 8 blocks of 400 trials per participant with target and non-target semantic items presented as news headlines or short sentences. Raw EEG data are provided in multiple formats (EDF, BDF, JSON, TSV, MAT) organized according to BIDS standards. Preprocessed derivatives are also available.",
+  "methods_description": "EEG recordings were obtained from 30 right-handed participants (mean age 22.07 years, SD 2.7; 18 females, 12 males) during self-paced reading of text materials (15-20 characters) presented on screen. Each participant completed 8 blocks of 400 trials, with individual trials lasting approximately 2.2 seconds including fixation cross and inter-stimulus intervals. Sensor-level EEG analyses were performed to examine responses to target versus non-target words.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,51 +20,6 @@
     "Guangjian Ni": {},
     "Dong Ming": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005383.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005383",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005383",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds005383",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".csv",
-    ".edf",
-    ".erp",
-    ".fdt",
-    ".json",
-    ".mat",
-    ".md",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "TMNRED is a Chinese language EEG dataset comprising recordings from 30 native Mandarin speakers during natural reading tasks designed to investigate semantic processing mechanisms. Participants read text stimuli (15-20 characters) including target and non-target semantic items presented at self-paced rates across 8 blocks of 400 trials each. Sensor-level analyses revealed distinct neural responses to target versus non-target words with notable scalp potential distribution changes, providing insights into fuzzy semantic target identification in naturalistic reading environments.",
-  "methods_description": "EEG data were collected from 30 healthy, right-handed participants (mean age 22.07 ± 2.7 years; 18 female, 12 male) during self-paced reading of Chinese text stimuli (15-20 characters) presented as news headlines or short sentences. Each participant completed 8 blocks of 400 trials with trial duration of approximately 2.2 seconds including fixation cross and inter-stimulus intervals. Sensor-level EEG analyses were performed to identify distinct responses to target and non-target words.",
   "keywords": [
     {
       "term": "EEG"
@@ -80,13 +37,38 @@
       "term": "event-related potentials"
     },
     {
-      "term": "target identification"
+      "term": "language comprehension"
     },
     {
-      "term": "reading comprehension"
+      "term": "fuzzy semantic target identification"
     },
     {
-      "term": "language processing"
+      "term": "BIDS"
+    },
+    {
+      "term": "neurolinguistics"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005383",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005383",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005383",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005383.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -99,5 +81,27 @@
       "award_number": "82202290"
     }
   ],
-  "source_hash": "4b717c85bb9da818ab86d3854645c11f685a0f5c536a1288afb2ad118f316cf7"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "18.7 GB (2170 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".csv",
+    ".edf",
+    ".erp",
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "b0d9f3d69761490bc00c34bc1a0f928c5588408edbf9af8659b229671652eaa2"
 }
