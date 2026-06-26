@@ -1,22 +1,28 @@
 {
-    "Name": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Yanru Bai",
-        "Qi Tang",
-        "Ran Zhao",
-        "Hongxing Liu",
-        "Mingkun Guo",
-        "Shuming Zhang",
-        "Minghan Guo",
-        "Junjie Wang",
-        "Changjian Wang",
-        "Mu Xing",
-        "Guangjian Ni",
-        "Dong Ming"
-    ],
-    "HowToAcknowledge": "",
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005383.v1.0.0"
+  "Name": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Yanru Bai",
+    "Qi Tang",
+    "Ran Zhao",
+    "Hongxing Liu",
+    "Mingkun Guo",
+    "Shuming Zhang",
+    "Minghan Guo",
+    "Junjie Wang",
+    "Changjian Wang",
+    "Mu Xing",
+    "Guangjian Ni",
+    "Dong Ming"
+  ],
+  "HowToAcknowledge": "",
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on005383",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005383.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
