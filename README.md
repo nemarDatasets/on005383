@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005383-blue)](https://doi.org/10.82901/nemar.on005383)
+
 # TMNRED Dataset - Chinese Natural Reading EEG for Fuzzy Semantic Target Identification
 
 ## Overview
