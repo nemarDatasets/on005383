@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
-  "description": "TMNRED is a Chinese language EEG dataset comprising recordings from 30 healthy native speakers during natural reading tasks. The dataset investigates semantic processing mechanisms in Chinese within naturalistic reading environments, featuring 8 blocks of 400 trials per participant with target and non-target semantic items presented as news headlines or short sentences. Raw EEG data are provided in multiple formats (EDF, BDF, JSON, TSV, MAT) organized according to BIDS standards. Preprocessed derivatives are also available.",
-  "methods_description": "EEG recordings were obtained from 30 right-handed participants (mean age 22.07 years, SD 2.7; 18 females, 12 males) during self-paced reading of text materials (15-20 characters) presented on screen. Each participant completed 8 blocks of 400 trials, with individual trials lasting approximately 2.2 seconds including fixation cross and inter-stimulus intervals. Sensor-level EEG analyses were performed to examine responses to target versus non-target words.",
+  "description": "TMNRED is a Chinese language EEG dataset comprising recordings from 30 healthy native speakers during natural reading tasks designed to investigate semantic processing mechanisms. Participants read text stimuli (15-20 characters) presented as news headlines or short sentences, with each participant completing 8 blocks of 400 trials. The dataset includes both raw and preprocessed EEG data organized according to BIDS standards. Sensor-level EEG analyses have been performed to examine neural responses to target and non-target semantic items.",
+  "methods_description": "EEG recordings were obtained from 30 right-handed participants (mean age 22.07 years, SD 2.7; 18 females, 12 males) during self-paced reading of text stimuli. Each trial lasted approximately 2.2 seconds including fixation cross and inter-stimulus intervals. Participants completed 8 blocks of 400 trials total. Sensor-level EEG analyses were performed to examine responses to target and non-target words.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -37,16 +37,7 @@
       "term": "event-related potentials"
     },
     {
-      "term": "language comprehension"
-    },
-    {
-      "term": "fuzzy semantic target identification"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "neurolinguistics"
+      "term": "target detection"
     }
   ],
   "related_identifiers": [
