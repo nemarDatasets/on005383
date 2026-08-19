@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
-  "description": "TMNRED is a Chinese language EEG dataset comprising recordings from 30 healthy native speakers during natural reading tasks designed to investigate semantic processing mechanisms. Participants read text stimuli (15-20 characters) presented as news headlines or short sentences, with each participant completing 8 blocks of 400 trials. The dataset includes both raw and preprocessed EEG data organized according to BIDS standards. Sensor-level EEG analyses have been performed to examine neural responses to target and non-target semantic items.",
-  "methods_description": "EEG recordings were obtained from 30 right-handed participants (mean age 22.07 years, SD 2.7; 18 females, 12 males) during self-paced reading of text stimuli. Each trial lasted approximately 2.2 seconds including fixation cross and inter-stimulus intervals. Participants completed 8 blocks of 400 trials total. Sensor-level EEG analyses were performed to examine responses to target and non-target words.",
+  "description": "TMNRED is an EEG dataset collected from 30 healthy, right-handed native Chinese speakers performing a natural reading task designed to investigate fuzzy semantic target identification. Participants read Chinese news headlines and short sentences containing target and non-target semantic items while EEG was recorded across 8 blocks of 400 trials each. The dataset supports research into semantic processing mechanisms during naturalistic reading in the Chinese language.",
+  "methods_description": "EEG was recorded from 30 right-handed native Chinese speakers (mean age 22.07 years, SD 2.7; 18 females, 12 males) as they read sentences of 15-20 characters, presented as news headlines or short sentences with target and non-target semantic items. Each participant completed 8 blocks of 400 trials, with each trial lasting approximately 2.2 seconds including a fixation cross and inter-stimulus intervals. Sensor-level EEG analyses were performed to validate distinct responses to target and non-target words.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,29 +25,28 @@
       "term": "EEG"
     },
     {
-      "term": "semantic processing"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     },
     {
-      "term": "natural reading"
+      "term": "Semantics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012660"
     },
     {
       "term": "Chinese language"
     },
     {
-      "term": "event-related potentials"
+      "term": "natural reading"
     },
     {
-      "term": "target detection"
+      "term": "semantic processing"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005383",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005383",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -60,6 +59,11 @@
       "identifier": "10.18112/openneuro.ds005383.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005383",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
