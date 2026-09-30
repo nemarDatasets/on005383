@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",
-  "description": "TMNRED is an EEG dataset collected from 30 healthy, right-handed native Chinese speakers performing a natural reading task designed to investigate fuzzy semantic target identification. Participants read Chinese news headlines and short sentences containing target and non-target semantic items while EEG was recorded across 8 blocks of 400 trials each. The dataset supports research into semantic processing mechanisms during naturalistic reading in the Chinese language.",
-  "methods_description": "EEG was recorded from 30 right-handed native Chinese speakers (mean age 22.07 years, SD 2.7; 18 females, 12 males) as they read sentences of 15-20 characters, presented as news headlines or short sentences with target and non-target semantic items. Each participant completed 8 blocks of 400 trials, with each trial lasting approximately 2.2 seconds including a fixation cross and inter-stimulus intervals. Sensor-level EEG analyses were performed to validate distinct responses to target and non-target words.",
+  "description": "TMNRED is an EEG dataset recorded from 30 native Chinese speakers during natural reading of news headlines and short sentences. Participants identified fuzzy semantic targets among target and non-target items. The dataset supports research on semantic processing of Chinese in naturalistic reading and includes raw and preprocessed data in BIDS format.",
+  "methods_description": "Thirty healthy right-handed native Chinese speakers read 15-20 character sentences on a screen at their own pace. Each completed 8 blocks totaling 400 trials, with each trial lasting about 2.2 seconds including a fixation cross and inter-stimulus interval. Sensor-level analyses compared responses to target and non-target words.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,23 +25,21 @@
       "term": "EEG"
     },
     {
-      "term": "Reading",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
+      "term": "natural reading"
     },
     {
-      "term": "Semantics",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012660"
+      "term": "semantic processing"
     },
     {
       "term": "Chinese language"
     },
     {
-      "term": "natural reading"
+      "term": "target identification"
     },
     {
-      "term": "semantic processing"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     }
   ],
   "related_identifiers": [
@@ -82,7 +80,7 @@
     "eeg"
   ],
   "sizes": [
-    "18.7 GB (2170 files)"
+    "17.41 GB (2170 files)"
   ],
   "formats": [
     ".bdf",
